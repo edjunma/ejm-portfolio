@@ -15,25 +15,27 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <title>EJM | Full Stack Web Developer</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
   </head>
   <body>
     <!-- Header -->
     <header id="header-home">
       <div class="container">
         <nav id="navbar">
-          <img src="img/logo.png" alt="My Portfolio" id="logo" />
+          <a href="#home-content"
+            ><img src="img/logo.png" alt="My Portfolio" id="logo"
+          /></a>
           <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="#home-content" class="current">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#project">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <!-- Section: Home -->
-        <div class="home-content">
+        <section id="home-content">
           <h1>
             Edmond Ma
             <br />
@@ -44,11 +46,56 @@
               data-words='[" Web Developer", " Passionate Learner", " Dog Lover"]'
             ></span>
           </h1>
-          <p>Full Stack Web Developer</p>
-        </div>
+          <p class="lead">Full Stack Web Developer</p>
+          <a href="#project" class="btn-light">View My Work</a>
+        </section>
       </div>
     </header>
 
+    <!-- Section: About -->
+    <section id="about">
+      <h1>About Me</h1>
+      <div class="bottom-line"></div>
+      <p class="lead">
+        The core of my skill set relies heavily upon the MERN stack, to be able
+        to achieve a smooth and dynamic user experience. Currently some of my
+        primary goals are to improve my JavaScript and ReactJS capabilities. As
+        well as dabble in some other frameworks like AngularJS or VueJS to
+        expand my tech stack and knowledge.
+      </p>
+    </section>
+
+    <!-- Section: Projects -->
+    <section id="projects">
+      <h1>My Projects</h1>
+      <div class="bottom-line"></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+        fugit a consequuntur recusandae saepe eos.
+      </p>
+    </section>
+
+    <!-- Section: Blog -->
+    <section id="blog">
+      <h1>My Blog</h1>
+      <div class="bottom-line"></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+        fugit a consequuntur recusandae saepe eos.
+      </p>
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <div class="bottom-line"></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+        fugit a consequuntur recusandae saepe eos.
+      </p>
+    </section>
+
+    <!-- Footer -->
     <footer id="main-footer">
       <div class="footer-content">
         <p>Handcrafted with <span class="heart">♥</span> by EJM &copy; 2019</p>
@@ -67,5 +114,6 @@
       </div>
     </footer>
     <script src="js/typewriter.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

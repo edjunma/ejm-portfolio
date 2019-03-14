@@ -1,4 +1,5 @@
 @import "config";
+@import "utilities";
 
 // General Styles
 * {
@@ -33,8 +34,8 @@ img {
 
 // Logo
 #logo {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 
 // Navbar
@@ -46,14 +47,15 @@ img {
   padding: 1rem;
   background: rgba(0, 0, 0, 0.7);
   z-index: 1;
-  -webkit-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
-  -moz-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
-  box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+  -webkit-box-shadow: 0 10px 7px -7px rgb(0, 0, 0);
+  -moz-box-shadow: 0 10px 7px -7px rgb(0, 0, 0);
+  box-shadow: 0 8px 7px -7px rgb(0, 0, 0);
 
   ul {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
+    margin-right: 1rem;
   }
 
   li {
@@ -87,11 +89,34 @@ img {
     color: #fff;
 
     // Header Content
-    .header-content {
+    .home-content {
       text-align: center;
       padding-top: 20%;
     }
+    h1 {
+      font-size: 4rem;
+      line-height: 1.2;
+    }
   }
+}
+
+// Section
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+section h1 {
+  font-size: 4rem;
+}
+
+section p {
+  font-size: 1.5rem;
 }
 
 // Footer
@@ -122,11 +147,12 @@ img {
 
       &:hover {
         background: $main-color;
+        cursor: pointer;
       }
     }
   }
 
   .heart {
-    color: #00af83;
+    color: $main-color;
   }
 }
