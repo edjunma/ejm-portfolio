@@ -31,7 +31,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact-form">Contact</a></li>
           </ul>
         </nav>
         <!-- Section: Home -->
@@ -85,14 +85,50 @@
       </p>
     </section>
 
-    <!-- Section: Contact -->
-    <section id="contact">
-      <h1>Contact Me</h1>
-      <div class="bottom-line"></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
-        fugit a consequuntur recusandae saepe eos.
-      </p>
+    <!-- Section A: Contact Form -->
+    <section id="contact-form">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <div class="bottom-line"></div>
+        <p class="lead">Here is how you can reach me</p>
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Subject"
+              name="subject"
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Email Address"
+              name="email"
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+              name="phone"
+            />
+            <textarea
+              class="text-input message-input"
+              placeholder="Enter Message"
+              name="message"
+            ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
     </section>
 
     <!-- Footer -->

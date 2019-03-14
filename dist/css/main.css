@@ -59,7 +59,9 @@ img {
 
 #logo {
   width: 120px;
-  height: 120px; }
+  height: 120px;
+  position: relative;
+  top: -25px; }
 
 #navbar {
   position: fixed;
@@ -117,6 +119,26 @@ section h1 {
 
 section p {
   font-size: 1.5rem; }
+
+#contact-a .text-fields {
+  display: grid;
+  grid-template-areas: "name email" "subject phone" "message message"; }
+  #contact-a .text-fields .name-input {
+    grid-area: name; }
+  #contact-a .text-fields .subject-input {
+    grid-area: subject; }
+  #contact-a .text-fields .email-input {
+    grid-area: email; }
+  #contact-a .text-fields .phone-input {
+    grid-area: phone; }
+  #contact-a .text-fields .message-input {
+    grid-area: message;
+    height: 100px; }
+  #contact-a .text-fields .text-input {
+    padding: 0.5rem 1rem; }
+
+#contact-a button[type="submit"] {
+  width: 50%; }
 
 #main-footer {
   background: #333;
