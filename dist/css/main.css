@@ -7,7 +7,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00; }
+  background-color: #ffb3a0; }
 
 .btn-light {
   color: #333;
@@ -20,7 +20,7 @@
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #ffbc00; }
+  background-color: #ffb3a0; }
 
 .lead {
   font-size: 1.3rem;
@@ -29,7 +29,7 @@ input[class^="btn-"]:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffbc00;
+  background: #ffb3a0;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -92,7 +92,7 @@ img {
     #navbar a:hover {
       border-color: #ccc; }
     #navbar a:current {
-      border-color: #ffbc00; }
+      border-color: #ffb3a0; }
 
 #header-home {
   background: url("../img/showcase.jpg") no-repeat center center/cover;
@@ -140,6 +140,9 @@ section p {
 #contact-a button[type="submit"] {
   width: 50%; }
 
+#contact-form {
+  background: #ccc; }
+
 #main-footer {
   background: #333;
   color: #fff;
@@ -163,7 +166,7 @@ section p {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #ffbc00;
+        background: #ffb3a0;
         cursor: pointer; }
   #main-footer .heart {
-    color: #ffbc00; }
+    color: #ffb3a0; }
