@@ -127,26 +127,22 @@ section p {
     .text-fields {
       display: grid;
       grid-template-areas:
-        "name email"
-        "subject phone"
-        "message message";
+        "name"
+        "email"
+        "message";
+      grid-gap: 1.2rem;
+      margin-bottom: 1.2rem;
 
       // Grid Areas
-      .name-input {
+      .name-input .text-input {
         grid-area: name;
       }
-      .subject-input {
-        grid-area: subject;
-      }
-      .email-input {
+      .email-input .text-input {
         grid-area: email;
       }
-      .phone-input {
-        grid-area: phone;
-      }
-      .message-input {
+      .message-input .text-input {
         grid-area: message;
-        height: 100px;
+        height: 200px;
       }
       .text-input {
         padding: 0.5rem 1rem;

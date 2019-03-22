@@ -89,7 +89,7 @@
     </section>
 
     <!-- Section A: Contact Form -->
-    <section id="contact-form">
+    <section id="contact-form" class="text-center py-3">
       <div class="container">
         <h1>Contact Me</h1>
         <div class="bottom-line"></div>
@@ -104,32 +104,26 @@
           <div class="text-fields">
             <input
               type="text"
-              class="text-input name-input"
+              class="name-input"
               placeholder="Name"
               name="name"
-            />
-            <input
-              type="text"
-              class="text-input subject-input"
-              placeholder="Subject"
-              name="subject"
+              required
+              value
             />
             <input
               type="email"
-              class="text-input email-input"
+              class="email-input"
               placeholder="Email Address"
               name="email"
-            />
-            <input
-              type="text"
-              class="text-input phone-input"
-              placeholder="Phone Number"
-              name="phone"
+              required
+              value
             />
             <textarea
-              class="text-input message-input"
+              type="text"
+              class="message-input"
               placeholder="Enter Message"
               name="message"
+              required
             ></textarea>
             <div class="my-2">
               <div data-netlify-recaptcha="true"></div>
