@@ -124,6 +124,29 @@ section p {
 // About Section
 #about {
   background: #f9f5e8;
+  .skills-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 95%;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 1.8rem auto;
+    max-width: 750px;
+
+    .skill-cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 10px;
+      box-sizing: border-box;
+      min-width: 120px;
+
+      &:hover {
+        color: $main-color;
+      }
+    }
+  }
 }
 
 // Project Section
@@ -166,7 +189,7 @@ section p {
     }
   }
   &-form {
-    background: #d5dbe4;
+    background: #e0ebf2;
   }
 }
 
