@@ -124,26 +124,34 @@ section p {
 // About Section
 #about {
   background: #f9f5e8;
+
   .skills-container {
     display: flex;
     flex-flow: row wrap;
-    width: 95%;
     align-content: center;
     justify-content: space-evenly;
-    margin: 1.8rem auto;
+    width: 95%;
+    margin: 2rem auto;
     max-width: 750px;
 
     .skill-cards {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
-      margin: 10px;
       box-sizing: border-box;
+      margin: 10px;
       min-width: 120px;
 
       &:hover {
         color: $main-color;
+      }
+
+      &-h3 {
+        font-size: 1.2rem;
+        font-weight: 100;
+        margin: auto;
+        transition: all ease 300ms;
       }
     }
   }
