@@ -26,10 +26,45 @@ input[class^="btn-"]:hover {
   font-size: 1.3rem;
   margin-bottom: 2rem; }
 
+.text-center {
+  text-align: center; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.my-4 {
+  margin: 4rem 0; }
+
+.section-title {
+  font-size: 3rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffb3a0;
+  background: #333;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -120,6 +155,12 @@ section h1 {
 section p {
   font-size: 1.5rem; }
 
+#about {
+  background: #f9f5e8; }
+
+#projects {
+  background: #edcfc0; }
+
 #contact-a .text-fields {
   display: grid;
   grid-template-areas: "name" "email" "message";
@@ -139,7 +180,7 @@ section p {
   width: 50%; }
 
 #contact-form {
-  background: #ccc; }
+  background: #d5dbe4; }
 
 #main-footer {
   background: #333;

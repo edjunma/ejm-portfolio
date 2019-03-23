@@ -102,7 +102,7 @@ img {
   }
 }
 
-// Section
+// Section Styling
 section {
   display: flex;
   flex-direction: column;
@@ -121,7 +121,17 @@ section p {
   font-size: 1.5rem;
 }
 
-// Contact Page
+// About Section
+#about {
+  background: #f9f5e8;
+}
+
+// Project Section
+#projects {
+  background: #edcfc0;
+}
+
+// Contact Section
 #contact {
   &-a {
     .text-fields {
@@ -137,13 +147,16 @@ section p {
       .name-input .text-input {
         grid-area: name;
       }
+
       .email-input .text-input {
         grid-area: email;
       }
+
       .message-input .text-input {
         grid-area: message;
         height: 200px;
       }
+
       .text-input {
         padding: 0.5rem 1rem;
       }
@@ -153,7 +166,7 @@ section p {
     }
   }
   &-form {
-    background: $medium-color;
+    background: #d5dbe4;
   }
 }
 
