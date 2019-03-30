@@ -51,7 +51,7 @@ img {
   z-index: 1;
   -webkit-box-shadow: 0 10px 7px -7px rgb(0, 0, 0);
   -moz-box-shadow: 0 10px 7px -7px rgb(0, 0, 0);
-  box-shadow: 0 8px 7px -7px rgb(0, 0, 0);
+  box-shadow: 0 6px 7px -7px rgb(0, 0, 0);
 
   ul {
     display: flex;
@@ -165,36 +165,6 @@ section p {
 // Contact Section
 #contact {
   &-a {
-    .text-fields {
-      display: grid;
-      grid-template-areas:
-        "name"
-        "email"
-        "message";
-      grid-gap: 1.2rem;
-      margin-bottom: 1.2rem;
-
-      // Grid Areas
-      .name-input .text-input {
-        grid-area: name;
-      }
-
-      .email-input .text-input {
-        grid-area: email;
-      }
-
-      .message-input .text-input {
-        grid-area: message;
-        height: 200px;
-      }
-
-      .text-input {
-        padding: 0.5rem 1rem;
-      }
-    }
-    button[type="submit"] {
-      width: 50%;
-    }
   }
   &-form {
     background: #e0ebf2;
@@ -205,33 +175,42 @@ section p {
 #main-footer {
   background: $dark-color;
   color: #fff;
-  height: 5rem;
+  height: 8rem;
 
   .footer-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     height: 5rem;
     align-items: center;
     max-width: $website-width;
-    padding: 0;
+    padding: 25px 0 10px 0;
     margin: auto;
     overflow: hidden;
 
     .social .fab {
-      margin-right: 1rem;
+      background: $light-color;
+      margin: 0 1rem 0 1rem;
       border: 2px #fff solid;
       border-radius: 50%;
-      height: 20px;
-      width: 20px;
-      line-height: 20px;
+      height: 22px;
+      width: 22px;
+      line-height: 22px;
       text-align: center;
       padding: 0.5rem;
+      font-size: 16pt;
 
       &:hover {
         background: $main-color;
         cursor: pointer;
       }
     }
+  }
+
+  .footer-note {
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    margin-top: 15px;
   }
 
   .heart {
