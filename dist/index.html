@@ -131,39 +131,31 @@
         <p class="lead">
           I'm currently available for work and pursuing new opportunities.
         </p>
-        <p>
+        <p class="text-center">
           If you have a project in mind that you'd like to get started with,
           think you require my assistance with something, or just fancy a
           conversation and a possible chance of coffee, please feel free to get
-          in touch. I will try to get back to you as soon as I can!
+          in touch. I will try my best to get back to you as soon as I can!
         </p>
-        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
-          <div class="text-fields">
-            <input
-              type="text"
-              class="text-input name-input"
-              placeholder="Name"
-              name="name"
-              required
-            />
-            <input
-              type="email"
-              class="text-input email-input"
-              placeholder="Enter Email Address"
-              name="email"
-              required
-            />
-            <textarea
-              type="text"
-              class="text-input message-input"
-              placeholder="Enter Your Message"
-              name="message"
-            ></textarea>
-            <div class="my-2">
-              <div data-netlify-recaptcha="true"></div>
-            </div>
-          </div>
-          <button type="submit" class="btn-dark">Submit</button>
+        <form class="text-input">
+          <input
+            type="text"
+            name="name-input"
+            placeholder="Enter Name"
+            required
+          />
+          <input
+            type="email"
+            name="email-input"
+            placeholder="Enter Email Address"
+            required
+          />
+          <textarea
+            type="text"
+            name="message-input"
+            placeholder="Enter Your Message"
+          ></textarea>
+          <input type="submit" class="btn-dark" id="submit" value="Submit" />
         </form>
       </div>
     </section>

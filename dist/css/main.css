@@ -118,6 +118,7 @@ img {
     margin: 0 1rem;
     padding: 1rem; }
   #navbar a {
+    font-family: "Lato", sans-serif;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -183,6 +184,9 @@ section p {
 
 #projects {
   background: #edcfc0; }
+
+#contact .text-fields .text-input {
+  display: block; }
 
 #contact-form {
   background: #e0ebf2; }
