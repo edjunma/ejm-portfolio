@@ -30,8 +30,8 @@
             <li><a href="#home-content" class="current">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#blog">Blog</a></li>
             <li><a href="#contact-form">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
           </ul>
         </nav>
         <!-- Section: Home -->
@@ -57,7 +57,7 @@
       <div class="about-container">
         <h2 class="section-title">About Me</h2>
         <div class="bottom-line"></div>
-        <p class="lead">
+        <p class="about-info">
           Hi, My name is Edmond, a Full Stack Web Developer based in Buffalo,
           New York currently. I graduated in 2018 with a Bachelors of Science in
           Business Administration and Management Information Systems from the
@@ -112,6 +112,14 @@
             <h3>Python</h3>
           </div>
         </div>
+        <!-- Profile Image -->
+        <div class="image-container">
+          <img src="img/profile.jpg" class="profile" />
+        </div>
+        <!-- About Section: Arrow -->
+        <div class="arrow bounce">
+          <a class="fa fa-arrow-down fa-2x" href="#projects"> </a>
+        </div>
       </div>
     </section>
 
@@ -120,6 +128,24 @@
       <div class="project-container">
         <h2 class="section-title">My Projects</h2>
         <div class="bottom-line"></div>
+        <div id="project-cards">
+          <a href="#" target="_blank" class="">
+            <img src="" class="project-ss" alt="project" />
+            <div class="project-title">SmartBrain Face Recognition</div>
+          </a>
+          <a href="#" target="_blank" class="">
+            <img src="" class="project-ss" alt="project" />
+            <div class="project-title">Example Project</div>
+          </a>
+          <a href="#" target="_blank" class="">
+            <img src="" class="project-ss" alt="project" />
+            <div class="project-title">Example Project</div>
+          </a>
+          <a href="#" target="_blank" class="">
+            <img src="" class="project-ss" alt="project" />
+            <div class="project-title">Example Project</div>
+          </a>
+        </div>
       </div>
     </section>
 
@@ -137,32 +163,6 @@
           conversation and a possible chance of coffee, please feel free to get
           in touch. I will try my best to get back to you as soon as I can!
         </p>
-        <form class="text-input">
-          <input
-            type="text"
-            name="name-input"
-            placeholder="Enter Name"
-            required
-          />
-          <input
-            type="email"
-            name="email-input"
-            placeholder="Enter Email Address"
-            required
-          />
-          <textarea
-            type="text"
-            name="message-input"
-            placeholder="Enter Your Message"
-          ></textarea>
-          <input type="submit" class="btn-dark" id="submit" value="Submit" />
-        </form>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer id="main-footer">
-      <div class="footer-content">
         <div class="social">
           <a href="https://www.linkedin.com/in/ejwm18/">
             <i class="fab fa-linkedin"></i>
@@ -177,11 +177,13 @@
             <i class="fab fa-instagram"></i>
           </a>
         </div>
-        <div class="footer-note">
-          <p>
-            Handcrafted with <span class="heart">♥</span> by EJM &copy; 2019
-          </p>
-        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-note">
+        <p>Handcrafted with <span class="heart">♥</span> by EJM &copy; 2019</p>
       </div>
     </footer>
     <script src="js/typewriter.js"></script>

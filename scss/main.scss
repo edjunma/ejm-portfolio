@@ -75,10 +75,6 @@ img {
     transition: border-color 0.5s;
 
     &:hover {
-      border-color: $medium-color;
-    }
-
-    &:current {
       border-color: $main-color;
     }
   }
@@ -126,6 +122,10 @@ section p {
 #about {
   background: #f9f5e8;
 
+  .about-info {
+    background-color: #333;
+  }
+
   .skills-container {
     display: flex;
     flex-flow: row wrap;
@@ -133,28 +133,38 @@ section p {
     justify-content: space-evenly;
     width: 95%;
     margin: 2rem auto;
-    max-width: 750px;
+    max-width: 800px;
+  }
+  .skill-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 10px;
+    min-width: 120px;
 
-    .skill-cards {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      box-sizing: border-box;
-      margin: 10px;
-      min-width: 120px;
-
-      &:hover {
-        color: $main-color;
-      }
-
-      &-h3 {
-        font-size: 1.2rem;
-        font-weight: 100;
-        margin: auto;
-        transition: all ease 300ms;
-      }
+    &:hover * {
+      color: $main-color;
     }
+
+    &-i {
+      font-size: 3rem;
+      transition: all ease 300ms;
+    }
+
+    &-h3 {
+      font-family: "Lato", sans-serif;
+      font-size: 1.2rem;
+      font-weight: 100;
+      margin: auto;
+      transition: all ease 300ms;
+    }
+  }
+  .image-container {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
   }
 }
 
@@ -164,13 +174,23 @@ section p {
 }
 
 // Contact Section
-#contact {
-  .text-fields .text-input {
-    display: block;
-  }
+#contact-form {
+  .social .fab {
+    background: $light-color;
+    margin: 0 1rem 0 1rem;
+    border: 2px #333 solid;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 16pt;
 
-  &-form {
-    background: #e0ebf2;
+    &:hover {
+      background: $main-color;
+      cursor: pointer;
+    }
   }
 }
 
@@ -178,42 +198,13 @@ section p {
 #main-footer {
   background: $dark-color;
   color: #fff;
-  height: 8rem;
-
-  .footer-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 5rem;
-    align-items: center;
-    max-width: $website-width;
-    padding: 25px 0 10px 0;
-    margin: auto;
-    overflow: hidden;
-
-    .social .fab {
-      background: $light-color;
-      margin: 0 1rem 0 1rem;
-      border: 2px #fff solid;
-      border-radius: 50%;
-      height: 22px;
-      width: 22px;
-      line-height: 22px;
-      text-align: center;
-      padding: 0.5rem;
-      font-size: 16pt;
-
-      &:hover {
-        background: $main-color;
-        cursor: pointer;
-      }
-    }
-  }
+  padding: 20px;
+  line-height: 20px;
+  text-align: center;
 
   .footer-note {
-    font-size: 1rem;
     font-family: "Lato", sans-serif;
-    margin-top: 15px;
+    margin-top: 16px;
   }
 
   .heart {
