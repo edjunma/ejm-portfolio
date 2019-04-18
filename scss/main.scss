@@ -214,6 +214,21 @@ section p {
         .project-content:hover {
           opacity: 1;
         }
+
+        &-p {
+          color: #fff;
+          font-size: 20px;
+          padding: 0 40px;
+        }
+
+        &-a {
+          background-color: #fff;
+          border-radius: 3px;
+          color: #000;
+          margin-top: 20px;
+          padding: 7px 15px;
+          text-decoration: none;
+        }
       }
     }
   }
@@ -245,13 +260,13 @@ section p {
 #main-footer {
   background: $dark-color;
   color: #fff;
-  padding: 22px;
+  padding: 16px;
   line-height: 20px;
   text-align: center;
 
   .footer-note {
     font-family: "Lato", sans-serif;
-    margin-top: 16px;
+    margin-top: 12px;
   }
 
   .heart {
