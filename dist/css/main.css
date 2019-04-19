@@ -54,26 +54,28 @@ input[class^="btn-"]:hover {
   margin: 4rem 0; }
 
 .section-title {
+  font-style: "Roboto Slab", sans-serif;
   font-size: 3rem;
+  font-weight: 400;
   padding-bottom: 0.5rem;
   display: flex;
   justify-content: center;
-  font-weight: 100;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #333; }
 
 .bottom-line {
   height: 2px;
   width: 6rem;
-  background: #333;
   display: block;
-  margin: 0 auto 1rem auto; }
+  margin: 0 auto 1rem auto;
+  background: orange; }
 
 * {
   margin: 0;
   padding: 0; }
 
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   line-height: 1.6;
   background: #fff; }
 
@@ -118,15 +120,18 @@ img {
     margin: 0 1rem;
     padding: 1rem; }
   #navbar a {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
-    transition: border-color 0.5s; }
+    transition: border-color 1s; }
     #navbar a:hover {
-      border-color: #ffb3a0; }
+      border-color: #ffb3a0;
+      color: #ffb3a0; }
 
 #header-home {
   background: url("../img/showcase.jpg") no-repeat center center/cover;
@@ -157,8 +162,8 @@ section p {
 #about {
   background: #f9f5e8; }
   #about .about-info {
-    background-color: #fff;
-    font-size: 20px; }
+    background-color: #f9f5e8;
+    font-size: 18px; }
   #about .skills-container {
     display: flex;
     flex-flow: row wrap;
@@ -211,35 +216,37 @@ section p {
         transition: transform 200ms ease-in;
         height: 100%;
         width: 100%; }
-      #projects .project-container .project-item .project-ss:hover {
-        transform: scale(1.1); }
-    #projects .project-container .project-content {
-      background-color: #293347;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      color: #fff;
-      position: absolute;
-      top: 0;
-      left: 0;
-      opacity: 0;
-      transition: opacity 200ms ease-in-out;
-      width: 100%;
-      height: 100%; }
-      #projects .project-container .project-content-p {
+      #projects .project-container .project-item .project-content {
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         color: #fff;
-        font-size: 16px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 200ms ease-in-out;
+        width: 100%;
+        height: 100%; }
+      #projects .project-container .project-item .project-content p {
+        color: #fff;
+        font-size: 20px;
         padding: 0 40px; }
-      #projects .project-container .project-content-a {
-        background-color: #fff;
+      #projects .project-container .project-item .project-content a {
+        background-color: #ffb3a0;
         border-radius: 3px;
         color: #000;
         margin-top: 20px;
         padding: 7px 15px;
         text-decoration: none; }
+        #projects .project-container .project-item .project-content a-a:hover {
+          color: #fff; }
     #projects .project-container .project-item:hover .project-content {
-      opacity: 1; }
+      opacity: 0.9; }
+    #projects .project-container .project-item:hover img {
+      transform: scale(1.1); }
 
 #contact-form .social .fab {
   margin: 0 1rem 0 1rem;

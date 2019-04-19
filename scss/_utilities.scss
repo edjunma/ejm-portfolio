@@ -81,18 +81,20 @@ input[class^="btn-"]:hover {
 }
 
 .section-title {
+  font-style: "Roboto Slab", sans-serif;
   font-size: 3rem;
+  font-weight: 400;
   padding-bottom: 0.5rem;
   display: flex;
   justify-content: center;
-  font-weight: 100;
   text-transform: uppercase;
+  color: #333;
 }
 
 .bottom-line {
   height: 2px;
   width: 6rem;
-  background: $dark-color;
   display: block;
   margin: 0 auto 1rem auto;
+  background: orange;
 }
