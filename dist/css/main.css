@@ -164,6 +164,10 @@ section p {
   #about .about-info {
     background-color: #f9f5e8;
     font-size: 18px; }
+  #about .profile {
+    float: left;
+    width: 200px;
+    border-radius: 50%; }
   #about .skills-container {
     display: flex;
     flex-flow: row wrap;
@@ -180,9 +184,9 @@ section p {
     box-sizing: border-box;
     margin: 10px;
     min-width: 120px; }
-    #about .skill-cards:hover * {
+    #about .skill-cards:hover {
       color: #ffb3a0;
-      transition: color 1s; }
+      transition: color 0.5s; }
     #about .skill-cards-i {
       font-size: 3rem;
       transition: all ease 300ms; }
@@ -241,12 +245,13 @@ section p {
         margin-top: 20px;
         padding: 7px 15px;
         text-decoration: none; }
-        #projects .project-container .project-item .project-content a-a:hover {
-          color: #fff; }
-    #projects .project-container .project-item:hover .project-content {
-      opacity: 0.9; }
-    #projects .project-container .project-item:hover img {
-      transform: scale(1.1); }
+        #projects .project-container .project-item .project-content a:hover {
+          color: #fff;
+          transition: color 0.5s; }
+  #projects .project-item:hover .project-content {
+    opacity: 0.9; }
+  #projects .project-item:hover img {
+    transform: scale(1.1); }
 
 #contact-form .social .fab {
   margin: 0 1rem 0 1rem;

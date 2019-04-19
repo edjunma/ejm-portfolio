@@ -130,6 +130,12 @@ section p {
     font-size: 18px;
   }
 
+  .profile {
+    float: left;
+    width: 200px;
+    border-radius: 50%;
+  }
+
   .skills-container {
     display: flex;
     flex-flow: row wrap;
@@ -148,9 +154,9 @@ section p {
     margin: 10px;
     min-width: 120px;
 
-    &:hover * {
+    &:hover {
       color: $main-color;
-      transition: color 1s;
+      transition: color 0.5s;
     }
 
     &-i {
@@ -228,17 +234,18 @@ section p {
         padding: 7px 15px;
         text-decoration: none;
 
-        &-a:hover {
+        &:hover {
           color: #fff;
+          transition: color 0.5s;
         }
       }
     }
-    .project-item:hover .project-content {
-      opacity: 0.9;
-    }
-    .project-item:hover img {
-      transform: scale(1.1);
-    }
+  }
+  .project-item:hover .project-content {
+    opacity: 0.9;
+  }
+  .project-item:hover img {
+    transform: scale(1.1);
   }
 }
 
