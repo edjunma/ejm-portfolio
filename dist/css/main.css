@@ -259,17 +259,19 @@ section p {
 #contact-me .contact-container {
   display: flex;
   flex-direction: column; }
+  #contact-me .contact-container .contact-info {
+    font-size: 18px;
+    max-width: 800px; }
   #contact-me .contact-container .message-form {
-    margin-right: 60px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
     margin: 0 auto;
     padding-top: 25px;
-    padding-bottom: 25px; }
+    padding-bottom: 5px; }
     #contact-me .contact-container .message-form input {
       display: block;
-      width: 100%;
+      width: 450px;
       padding: 16px;
       background: none;
       color: #777;
@@ -279,7 +281,7 @@ section p {
       margin-bottom: 15px; }
     #contact-me .contact-container .message-form textarea {
       display: block;
-      width: 100%;
+      width: 450px;
       padding: 16px;
       background: none;
       color: #777;
@@ -289,12 +291,19 @@ section p {
       font-size: 16px;
       height: 150px; }
     #contact-me .contact-container .message-form .form-submit {
+      background: #f4f4f4;
       color: pink;
-      width: 95%;
-      border-color: pink; }
+      width: 60%;
+      margin-left: 20%;
+      margin-right: 20%;
+      border: 1px solid pink;
+      border-radius: 4px; }
     #contact-me .contact-container .message-form .form-submit:hover {
+      background: #ffb3a0;
       color: #fff;
-      cursor: pointer; }
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: 0.2s; }
 
 #contact-me .social .fab {
   margin: 0 1rem 0 1rem;
@@ -305,8 +314,8 @@ section p {
   line-height: 30px;
   justify-content: center;
   font-size: 24pt;
-  padding: 20px;
-  margin-top: 45px;
+  padding: 15px;
+  margin-top: 35px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
   #contact-me .social .fab:hover {
     background-color: #ffb3a0;
