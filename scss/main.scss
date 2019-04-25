@@ -168,6 +168,11 @@ section p {
 #about {
 	background: #f9f5e8;
 
+	.about-container {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.about-info {
 		background-color: #f9f5e8;
 		font-family: Arial, Helvetica, sans-serif;
@@ -176,7 +181,6 @@ section p {
 	}
 
 	.profile {
-		display: flex;
 		width: 200px;
 		border-radius: 50%;
 	}
