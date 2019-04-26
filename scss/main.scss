@@ -206,20 +206,17 @@ section p {
 
 		&:hover {
 			color: $main-color;
-			transition: color 0.5s;
-		}
-
-		&-i {
-			font-size: 3rem;
 			transition: all ease 300ms;
 		}
 
-		&-h3 {
+		i {
+			font-size: 2rem;
+		}
+
+		h3 {
 			font-family: "Lato", sans-serif;
 			font-size: 16px;
-			font-weight: 100;
 			margin: auto;
-			transition: all ease 300ms;
 		}
 	}
 }
