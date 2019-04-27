@@ -209,6 +209,7 @@ section p {
 
 		&:hover {
 			color: $main-color;
+			transform: scale(1.1);
 			transition: all ease 300ms;
 		}
 

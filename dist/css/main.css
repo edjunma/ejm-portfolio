@@ -29,10 +29,6 @@ input[class^="btn-"]:hover {
 .text-center {
   text-align: center; }
 
-.arrow-bounce {
-  display: flex;
-  justify-content: center; }
-
 .py-1 {
   padding: 1rem 0; }
 
@@ -62,6 +58,7 @@ input[class^="btn-"]:hover {
   font-size: 3rem;
   font-weight: 400;
   padding-bottom: 0.5rem;
+  padding-top: 1rem;
   display: flex;
   justify-content: center;
   text-transform: uppercase;
@@ -222,6 +219,7 @@ section p {
     min-width: 120px; }
     #about .skill-cards:hover {
       color: #ffb3a0;
+      transform: scale(1.1);
       transition: all ease 300ms; }
     #about .skill-cards i {
       font-size: 2rem; }

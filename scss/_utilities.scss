@@ -42,11 +42,6 @@ input[class^="btn-"]:hover {
 	text-align: center;
 }
 
-.arrow-bounce {
-	display: flex;
-	justify-content: center;
-}
-
 // Padding Classes
 .py {
 	&-1 {
@@ -90,6 +85,7 @@ input[class^="btn-"]:hover {
 	font-size: 3rem;
 	font-weight: 400;
 	padding-bottom: 0.5rem;
+	padding-top: 1rem;
 	display: flex;
 	justify-content: center;
 	text-transform: uppercase;
