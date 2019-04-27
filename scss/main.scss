@@ -174,15 +174,18 @@ section p {
 	}
 
 	.about-info {
+		padding: 15px;
 		background-color: #f9f5e8;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 18px;
+		font-family: Lato;
+		font-size: 16px;
+		font-weight: 400;
 		max-width: 1000px;
 	}
 
 	.profile {
 		width: 200px;
 		border-radius: 50%;
+		border: 1px solid #777;
 	}
 
 	.skills-container {
@@ -190,7 +193,7 @@ section p {
 		flex-flow: row wrap;
 		align-content: center;
 		justify-content: space-evenly;
-		width: 95%;
+		width: 100%;
 		margin: 2rem auto;
 		max-width: 800px;
 	}
