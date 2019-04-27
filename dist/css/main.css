@@ -207,7 +207,7 @@ section p {
   #about .profile {
     width: 200px;
     border-radius: 50%;
-    border: 1px solid #777; }
+    border: 2px solid #777; }
   #about .skills-container {
     display: flex;
     flex-flow: row wrap;
@@ -303,7 +303,7 @@ section p {
     text-align: left;
     margin: 0 auto;
     padding-top: 25px;
-    padding-bottom: 5px; }
+    padding-bottom: 10px; }
     #contact-me .contact-container .message-form input {
       display: block;
       width: 450px;
