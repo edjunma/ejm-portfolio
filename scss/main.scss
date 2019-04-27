@@ -100,6 +100,11 @@ img {
 			line-height: 1.2;
 			text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 		}
+		p {
+			text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+			padding-top: 5px;
+			color: lightcyan;
+		}
 
 		.home-btn {
 			// Azur Lane gradient from UiGradients
@@ -116,7 +121,7 @@ img {
 				#86a8e7,
 				#7f7fd5
 			); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-			color: lightcyan;
+			color: white;
 			border: 1px solid #333;
 			border-radius: 4px;
 			box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
@@ -125,7 +130,7 @@ img {
 		}
 
 		.home-btn:hover {
-			color: #fff;
+			color: white;
 			border: 1px solid #333;
 			background: #ff5f6d; /* fallback for old browsers */
 			background: -webkit-linear-gradient(
@@ -171,6 +176,10 @@ section p {
 	.about-container {
 		display: flex;
 		flex-direction: column;
+
+		h2 {
+			padding-top: 50px;
+		}
 	}
 
 	.about-info {

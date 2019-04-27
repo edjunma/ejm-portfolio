@@ -24,6 +24,7 @@ input[class^="btn-"]:hover {
 
 .lead {
   font-size: 18px;
+  font-weight: 300;
   margin-bottom: 2rem; }
 
 .text-center {
@@ -145,6 +146,10 @@ img {
     font-size: 3rem;
     line-height: 1.2;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5); }
+  #header-home p {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    color: lightcyan; }
   #header-home .home-btn {
     background: #7f7fd5;
     /* fallback for old browsers */
@@ -152,14 +157,14 @@ img {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: lightcyan;
+    color: white;
     border: 1px solid #333;
     border-radius: 4px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
     font-weight: 600;
     font-size: 18px; }
   #header-home .home-btn:hover {
-    color: #fff;
+    color: white;
     border: 1px solid #333;
     background: #ff5f6d;
     /* fallback for old browsers */
@@ -190,6 +195,8 @@ section p {
   #about .about-container {
     display: flex;
     flex-direction: column; }
+    #about .about-container h2 {
+      padding-top: 50px; }
   #about .about-info {
     padding: 15px;
     background-color: #f9f5e8;
