@@ -376,3 +376,15 @@ section p {
     margin-top: 12px; }
   #main-footer .heart {
     color: #ffb3a0; }
+
+@media screen and (max-width: 900px) {
+  footer p {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 768px) {
+  footer p {
+    font-size: 0.7rem; } }
+
+@media screen and (max-width: 400px) {
+  footer p {
+    font-size: 0.6rem; } }

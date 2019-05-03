@@ -83,6 +83,13 @@ img {
 	}
 }
 
+@media screen and(max-width: 900px) {
+}
+@media screen and(max-width: 768px) {
+}
+@media screen and(max-width: 400px) {
+}
+
 // Header
 #header {
 	&-home {
@@ -148,6 +155,13 @@ img {
 			transition: 0.3s;
 		}
 	}
+}
+
+@media screen and(max-width: 900px) {
+}
+@media screen and(max-width: 768px) {
+}
+@media screen and(max-width: 400px) {
 }
 
 // Section Styling
@@ -234,6 +248,13 @@ section p {
 	}
 }
 
+@media screen and(max-width: 900px) {
+}
+@media screen and(max-width: 768px) {
+}
+@media screen and(max-width: 400px) {
+}
+
 // Project Section
 #projects {
 	background: #edcfc0;
@@ -310,6 +331,13 @@ section p {
 	.project-item:hover img {
 		transform: scale(1.1);
 	}
+}
+
+@media screen and(max-width: 900px) {
+}
+@media screen and(max-width: 768px) {
+}
+@media screen and(max-width: 400px) {
 }
 
 // Contact Section
@@ -403,6 +431,13 @@ section p {
 	}
 }
 
+@media screen and(max-width: 900px) {
+}
+@media screen and(max-width: 768px) {
+}
+@media screen and(max-width: 400px) {
+}
+
 // Footer
 #main-footer {
 	background: $dark-color;
@@ -418,5 +453,21 @@ section p {
 
 	.heart {
 		color: $main-color;
+	}
+}
+
+@media screen and(max-width: 900px) {
+	footer p {
+		font-size: 1rem;
+	}
+}
+@media screen and(max-width: 768px) {
+	footer p {
+		font-size: 0.7rem;
+	}
+}
+@media screen and(max-width: 400px) {
+	footer p {
+		font-size: 0.6rem;
 	}
 }
