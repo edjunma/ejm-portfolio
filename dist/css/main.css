@@ -123,9 +123,9 @@ img {
     margin: 0 1rem;
     padding: 1rem; }
   #navbar a {
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -163,9 +163,10 @@ img {
     line-height: 1.2;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5); }
   #header-home p {
+    font-size: 20px;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
     padding-top: 5px;
-    color: lightcyan; }
+    color: white; }
   #header-home .home-btn {
     background: #7f7fd5;
     /* fallback for old browsers */
@@ -212,14 +213,14 @@ section p {
     display: flex;
     flex-direction: column; }
     #about .about-container h2 {
-      padding-top: 50px; }
+      padding-top: 100px; }
   #about .about-info {
     padding: 15px;
     background-color: #f9f5e8;
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
-    max-width: 1000px; }
+    max-width: 950px; }
   #about .profile {
     width: 200px;
     height: auto;
@@ -331,6 +332,7 @@ section p {
       background: none;
       color: #777;
       border: 1px solid #777;
+      border-radius: 4px;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 18px;
       margin-bottom: 15px; }
@@ -341,6 +343,7 @@ section p {
       background: none;
       color: #777;
       border: 1px solid #777;
+      border-radius: 4px;
       font-family: Arial, Helvetica, sans-serif;
       margin-bottom: 20px;
       font-size: 16px;
@@ -349,6 +352,7 @@ section p {
       background: #ffb3a0;
       color: #fff;
       width: 60%;
+      margin-top: 25px;
       margin-left: 20%;
       margin-right: 20%;
       border: 1px solid #777;
