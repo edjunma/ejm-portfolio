@@ -15,6 +15,6 @@
 // })
 
 // Smooth Scroll Script
-const scroll = new SmoothScroll('#navbar a[href*="#"]', {
-	speed: 800
-})
+const scroll = new SmoothScroll('#navbar a[href*="#"]', '.home-btn [href*="#"]', {
+	speed: 600
+});

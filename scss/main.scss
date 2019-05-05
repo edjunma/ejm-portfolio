@@ -118,11 +118,13 @@ img {
 			text-align: center;
 			padding-top: 20%;
 		}
+
 		h1 {
 			font-size: 3rem;
 			line-height: 1.2;
 			text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 		}
+
 		p {
 			font-size: 20px;
 			text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
@@ -145,12 +147,14 @@ img {
 				#86a8e7,
 				#7f7fd5
 			); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-			color: white;
+			color: #fff;
 			border: 1px solid #333;
 			border-radius: 4px;
 			box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-			font-weight: 600;
+			font-family: "Lato";
+			font-weight: 800;
 			font-size: 18px;
+			width: 120px;
 		}
 
 		.home-btn:hover {
