@@ -7,7 +7,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffb3a0; }
+  background-color: #ff9671; }
 
 .btn-light {
   color: #333;
@@ -20,7 +20,7 @@
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #ffb3a0; }
+  background-color: #ff9671; }
 
 .lead {
   font-size: 18px;
@@ -133,8 +133,8 @@ img {
     padding-bottom: 0.5rem;
     transition: border-color 1s; }
     #navbar a:hover {
-      border-color: #ffb3a0;
-      color: #ffb3a0; }
+      border-color: #ff9671;
+      color: #ff9671; }
 
 @media screen and (min-width: 768px) {
   #navbar a {
@@ -245,7 +245,7 @@ section p {
     margin: 10px;
     min-width: 120px; }
     #about .skill-cards:hover {
-      color: #ffb3a0;
+      color: #ff9671;
       transform: scale(1.1);
       transition: all ease 300ms; }
     #about .skill-cards i {
@@ -297,7 +297,7 @@ section p {
         font-size: 20px;
         padding: 0 40px; }
       #projects .project-container .project-item .project-content a {
-        background-color: #ffb3a0;
+        background-color: #ff9671;
         border-radius: 3px;
         color: #000;
         margin-top: 20px;
@@ -306,6 +306,7 @@ section p {
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
         #projects .project-container .project-item .project-content a:hover {
           color: #fff;
+          font-weight: 600;
           transform: scale(1.1);
           transition: 0.2s; }
   #projects .project-item:hover .project-content {
@@ -351,7 +352,7 @@ section p {
       font-size: 16px;
       height: 150px; }
     #contact-me .contact-container .message-form .form-submit {
-      background: #ffb3a0;
+      background: #ff9671;
       color: #fff;
       width: 60%;
       margin-top: 25px;
@@ -362,7 +363,7 @@ section p {
       box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
       text-transform: uppercase; }
     #contact-me .contact-container .message-form .form-submit:hover {
-      background: #ffb3a0;
+      background: #ff9671;
       color: #fff;
       cursor: pointer;
       transform: scale(1.1);
@@ -382,7 +383,7 @@ section p {
   margin-bottom: 25px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
   #contact-me .social .fab:hover {
-    background-color: #ffb3a0;
+    background-color: #ff9671;
     transform: scale(1.1);
     transition: 0.2s;
     cursor: pointer;
@@ -398,7 +399,7 @@ section p {
     font-family: "Lato", sans-serif;
     margin-top: 12px; }
   #main-footer .heart {
-    color: #ffb3a0; }
+    color: #ff9671; }
 
 @media screen and (max-width: 900px) {
   footer p {
