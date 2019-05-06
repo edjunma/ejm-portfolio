@@ -129,7 +129,12 @@ img {
 			font-size: 20px;
 			text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 			padding-top: 5px;
-			color: white;
+			color: lightcyan;
+		}
+
+		p:hover {
+			color: $main-color;
+			transition: color 0.5s;
 		}
 
 		.home-btn {
@@ -206,7 +211,9 @@ section p {
 
 // About Section
 #about {
-	background: #f9f5e8;
+	// New York Gradient - webgradients
+	background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+	border-bottom: 1px solid #777;
 
 	.about-container {
 		display: flex;
@@ -219,7 +226,9 @@ section p {
 
 	.about-info {
 		padding: 15px;
-		background-color: #f9f5e8;
+		background-color: #fff;
+		border: 1px solid #777;
+		border-radius: 4px;
 		font-family: Lato;
 		font-size: 16px;
 		font-weight: 400;
@@ -230,7 +239,7 @@ section p {
 		width: 200px;
 		height: auto;
 		border-radius: 50%;
-		border: 2px solid #777;
+		border: 2px solid #fff;
 	}
 
 	.skills-container {
@@ -279,7 +288,8 @@ section p {
 
 // Project Section
 #projects {
-	background: #edcfc0;
+	background-image: linear-gradient(to bottom, #fff1eb 0%, #ace0f9 100%);
+	border-bottom: 1px solid #777;
 	min-height: 100vh;
 
 	.project-container {
@@ -365,6 +375,7 @@ section p {
 
 // Contact Section
 #contact-me {
+	background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 	.contact-container {
 		display: flex;
 		flex-direction: column;
