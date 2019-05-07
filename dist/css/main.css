@@ -171,31 +171,21 @@ img {
     color: #fea081;
     transition: color 0.5s; }
   #header-home .home-btn {
-    background: #7f7fd5;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
     color: #fff;
     border: 1px solid #333;
     border-radius: 4px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-    font-family: "Lato";
-    font-weight: 800;
-    font-size: 18px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 16px;
     width: 120px; }
   #header-home .home-btn:hover {
-    color: white;
+    color: #fff;
     border: 1px solid #333;
-    background: #ff5f6d;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffc371, #ff5f6d);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffc371, #ff5f6d);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
     transform: scale(1.1);
-    transition: 0.3s; }
+    transition: 0.5s; }
 
 section {
   display: flex;
