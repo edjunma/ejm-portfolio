@@ -134,7 +134,7 @@ img {
 
 		p:hover {
 			color: $main-color;
-			transition: color 0.5s;
+			transition: all 0.5s ease-in-out;
 		}
 
 		.home-btn {
@@ -154,7 +154,7 @@ img {
 			border: 1px solid #333;
 			background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
 			transform: scale(1.1);
-			transition: 0.5s;
+			transition: all 0.5s;
 		}
 	}
 }
@@ -325,6 +325,7 @@ section p {
 				color: #000;
 				margin-top: 20px;
 				padding: 7px 15px;
+				width: 75px;
 				text-decoration: none;
 				box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 
@@ -332,7 +333,7 @@ section p {
 					color: #fff;
 					font-weight: 600;
 					transform: scale(1.1);
-					transition: 0.2s;
+					transition: all 0.3s ease-in-out;
 				}
 			}
 		}
@@ -418,7 +419,7 @@ section p {
 				color: #fff;
 				cursor: pointer;
 				transform: scale(1.1);
-				transition: 0.5s;
+				transition: all 0.5s ease-in-out;
 			}
 		}
 	}

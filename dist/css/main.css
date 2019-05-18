@@ -169,7 +169,7 @@ img {
     color: lightcyan; }
   #header-home p:hover {
     color: #fea081;
-    transition: color 0.5s; }
+    transition: all 0.5s ease-in-out; }
   #header-home .home-btn {
     background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
     color: #fff;
@@ -185,7 +185,7 @@ img {
     border: 1px solid #333;
     background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
     transform: scale(1.1);
-    transition: 0.5s; }
+    transition: all 0.5s; }
 
 section {
   display: flex;
@@ -302,13 +302,14 @@ section p {
         color: #000;
         margin-top: 20px;
         padding: 7px 15px;
+        width: 75px;
         text-decoration: none;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
         #projects .project-container .project-item .project-content a:hover {
           color: #fff;
           font-weight: 600;
           transform: scale(1.1);
-          transition: 0.2s; }
+          transition: all 0.3s ease-in-out; }
   #projects .project-item:hover .project-content {
     opacity: 0.9; }
   #projects .project-item:hover img {
@@ -369,7 +370,7 @@ section p {
         color: #fff;
         cursor: pointer;
         transform: scale(1.1);
-        transition: 0.5s; }
+        transition: all 0.5s ease-in-out; }
   #contact-me .social .fab {
     margin: 0 1rem 0 1rem;
     border: 2px #333 solid;
