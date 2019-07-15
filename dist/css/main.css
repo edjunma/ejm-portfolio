@@ -223,7 +223,7 @@ section p {
     width: 200px;
     height: auto;
     border-radius: 50%;
-    border: 2px solid #fff; }
+    border: 2px solid #333; }
   #about .skills-container {
     display: flex;
     flex-flow: row wrap;
@@ -390,6 +390,10 @@ section p {
       transition: 0.2s;
       cursor: pointer;
       box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
+
+@media screen and (max-width: 400px) {
+  .contact-info {
+    font-size: 16px; } }
 
 #main-footer {
   background: #333;
